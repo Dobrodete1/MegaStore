@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.text-center{
+    align-items: center;
+}
+.next{
+    width: 384px;
+    height: 48px;
+    background-color: #232529;
+    font-size: 20px;
+    text-align: center;
+}
+/* первый блок */
+.number{
+    width: 640px;
+    height: 264px;
+}
