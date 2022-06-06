@@ -32,6 +32,10 @@ body{
     align-self: flex-start;
     margin-left: 16px;
 }
+input{
+    border-radius: 5px;
+    border: 0.5px solid #AEAEAE;
+}
  /* первый блок  */
 .number{
     width: 640px;
@@ -60,4 +64,24 @@ body{
 }
 .next_2{
     margin-top: 40px;
+}
+/* блок номер 3 */
+.ques{
+    height: 576px;
+    width: 664px;
+    display: flex;
+    gap: 8px;
+}
+.ques input{
+    height: 48px;
+    margin-top: 16px;
+}
+.border-200{
+    width: 200px;
+}
+.border-408{
+    width: 408px;
+}
+.id_data{
+    margin-left: 24px;
 }
