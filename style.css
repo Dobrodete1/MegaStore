@@ -45,6 +45,7 @@ input{
 #number{
     width: 608px;
     height: 48px;
+    padding-left: 10px;
 }
 /* второй блок */
 .code_verification{
