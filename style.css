@@ -7,9 +7,11 @@ body{
     justify-content: center;
     align-items: center;
     background-color: black;
+    height: 100vh;
 }
-.text-center{
+ .text-center{
     align-items: center;
+    font-size: 16px;
 }
 .next{
     width: 384px;
@@ -18,8 +20,31 @@ body{
     font-size: 20px;
     text-align: center;
 }
-/* первый блок */
+.block{
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    align-self: flex-start;
+    margin-left: 16px;
+}
+ /* первый блок  */
 .number{
     width: 640px;
     height: 264px;
+
+}
+#number{
+    width: 608px;
+    height: 48px;
+}
+/* второй блок */
+.code_verification{
+    text-align: center;
+    width: 640px;
+    height: 328px;
 }
