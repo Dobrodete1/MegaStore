@@ -19,6 +19,10 @@ body{
     background-color: #232529;
     font-size: 20px;
     text-align: center;
+    border: 0.5px solid #232529;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 35px;
 }
 .block{
     border-radius: 5px;
@@ -75,7 +79,7 @@ input{
     display: flex;
     gap: 8px;
 }
-.ques,.data_money input{
+.input-h input{ 
     height: 48px;
     margin-top: 16px;
 }
@@ -94,4 +98,13 @@ input{
 }
 .border-625{
     width: 625px;
+}
+.data_money{
+    width: 664px;
+    height: 608px;
+    display: flex;
+    gap: 8px;
+}
+.credits{
+    margin-left: 24px;
 }
