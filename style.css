@@ -75,7 +75,7 @@ input{
     display: flex;
     gap: 8px;
 }
-.ques input{
+.ques,.data_money input{
     height: 48px;
     margin-top: 16px;
 }
@@ -87,4 +87,11 @@ input{
 }
 .id_data{
     margin-left: 24px;
+}
+/* четвертый блок */
+.border-304{
+    width: 304px;
+}
+.border-625{
+    width: 625px;
 }
