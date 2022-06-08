@@ -39,6 +39,7 @@ body{
 input{
     border-radius: 5px;
     border: 0.5px solid #AEAEAE;
+    text-indent: 10px;
 }
  /* первый блок  */
 .number{
@@ -107,4 +108,9 @@ input{
 }
 .credits{
     margin-left: 24px;
+}
+/* Пятый блок */
+.ready_block{
+    display: flex;
+    gap: 8px;
 }
