@@ -15,7 +15,7 @@ const getInfoCredit = () =>{
     console.log(`Наименование организации:${nameCompany.value}`);
     console.log(`Должность:${positionData.value}`);
     console.log(`Заработная плата в месяц:${wageMounthData.value}`);
-    console.log(`Заработная плата за посл. 3 месяца:${wageTreeMounthData}`);
+    console.log(`Заработная плата за посл. 3 месяца:${wageTreeMounthData.value}`);
     console.log(`Покупка телефона (наименования товара):${productNameData.value}`);
     console.log(`Стоимость товара:${productPriceData.value}`);
     console.log(`количество товара:${productAmountData.value}`);
